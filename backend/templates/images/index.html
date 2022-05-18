@@ -1,0 +1,12 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        {% if error %}
+            <h1>{{error}}</h1>
+        {% else %}
+            <img src="data:image/jpeg;base64,{{img_data}}">
+        {% endif %}
+    </body>
+</html>
